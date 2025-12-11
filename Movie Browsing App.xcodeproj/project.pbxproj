@@ -6,8 +6,14 @@
 	objectVersion = 77;
 	objects = {
 
+/* Begin PBXBuildFile section */
+		8F302EB32E3369BD00D684DC /* MoviesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F302EB22E3369A800D684DC /* MoviesViewController.swift */; };
+/* End PBXBuildFile section */
+
 /* Begin PBXFileReference section */
 		8F302E982E3368AA00D684DC /* Movie Browsing App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Movie Browsing App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		8F302EB12E3368E200D684DC /* Movie.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Movie.swift; sourceTree = "<group>"; };
+		8F302EB22E3369A800D684DC /* MoviesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MoviesViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
@@ -45,6 +51,8 @@
 		8F302E8F2E3368A900D684DC = {
 			isa = PBXGroup;
 			children = (
+				8F302EB22E3369A800D684DC /* MoviesViewController.swift */,
+				8F302EB02E3368D300D684DC /* Model */,
 				8F302E9A2E3368AA00D684DC /* Movie Browsing App */,
 				8F302E992E3368AA00D684DC /* Products */,
 			);
@@ -56,6 +64,14 @@
 				8F302E982E3368AA00D684DC /* Movie Browsing App.app */,
 			);
 			name = Products;
+			sourceTree = "<group>";
+		};
+		8F302EB02E3368D300D684DC /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				8F302EB12E3368E200D684DC /* Movie.swift */,
+			);
+			path = Model;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -132,6 +148,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8F302EB32E3369BD00D684DC /* MoviesViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
